@@ -1,2 +1,1 @@
-fghfg
-fgnhghn
+print("Hello")
