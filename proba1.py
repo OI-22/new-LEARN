@@ -1,7 +1,10 @@
-def merge(dic1,dic2):
-    dic3=dic1.copy()
-    dic3.update(dic2)
-    return dic3
-dic1={1:"hello", 2:"world"}
-dic2={3:"Python", 4:"Programming"}
-merge(dic1,dic2) # {1: 'hello', 2: 'world', 3: 'Python', 4: 'Programming'}
+number = 23
+guess = int(input('Введите целое число : '))
+
+if guess == number :
+    print('Поздровляю, вы угадали')
+    print('(Хотя и не выиграл никакого приза)')
+elif guess < number :
+    print('Нет, загаданое число больше')
+else :
+    print('Нет, загадоное число меньше')
